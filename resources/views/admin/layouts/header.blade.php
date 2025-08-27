@@ -32,7 +32,7 @@
                             <a class="nav-link {{ request()->routeIs('admin.vendors.index') ? 'active' : '' }}" href="{{ route('admin.vendors.index') }}">Vendors</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link {{ request()->routeIs('admin.users'.index) ? 'active' : '' }}" href="{{ route('admin.users.index') }}">Users</a>
+                            <a class="nav-link {{ request()->routeIs('admin.users.index') ? 'active' : '' }}" href="{{ route('admin.users.index') }}">Users</a>
                         </li>
                     </ul>
 
