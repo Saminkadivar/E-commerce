@@ -1,0 +1,27 @@
+
+/* Light Mode (default) */
+body {
+    background-color: #ffffff;
+    color: #000000;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+body.dark-mode .navbar {
+    background-color: #222 !important;
+}
+
+body.dark-mode .card {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+body.dark-mode .dropdown-menu {
+    background-color: #2a2a2a;
+    color: #fff;
+}
